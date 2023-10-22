@@ -3,12 +3,11 @@ import java.util.*;
 import java.io.*;
 import java.text.*;
 
-
 public class Account {
-    
     Scanner accsc=new Scanner(System.in); 
     DecimalFormat money=new DecimalFormat("'Rs' ###,##0.00");
-    
+
+    //setter and getter method for account number
     public int setAccountNumber(int accountNumber )
     {
         this.accountNumber=accountNumber;
@@ -20,8 +19,8 @@ public class Account {
        return accountNumber;
                 
     }
-      
-      
+    
+    //setter and getter method for account number 
     public int setPinPassword(int pinPassword )
     {
         this.pinPassword=pinPassword;
@@ -32,9 +31,8 @@ public class Account {
     {
        return pinPassword;
     }
-      
-      
-      
+    
+  
     public double getcheckingBalance()
     {
        return checkingBalance;
